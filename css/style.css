@@ -18,7 +18,7 @@ header {
     height: 150px;
     
 }
-header section ul {
+header section > ul {
     display: flex; 
     align-items: center;
 }
@@ -32,8 +32,9 @@ a {
     color: rgb(182, 180, 180);
 }
 
-header section ul li:not(#logo) {
+header section > ul > li:not(#logo) {
     margin-left: 30px;
+    position: relative;
 }
 
 #logo img {
@@ -49,4 +50,29 @@ header section ul li:not(#logo) {
 
 .fa-chevron-down {
     font-size: 10px;
+}
+
+.tendina {
+    background-color: white;
+    box-shadow: 0px 3px 6px 0px #dedcdc;
+    position: absolute;
+    top: 30px;
+    left: -70%;
+    right: -70%;
+    padding: 15px 25px;
+    display: none;
+}
+
+.tendina ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tendina ul li:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.dis_block {
+    display: block;
 }
