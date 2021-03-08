@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 150px;
+    
+}
+header section ul {
+    display: flex; 
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(182, 180, 180);
+}
+
+header section ul li:not(#logo) {
+    margin-left: 30px;
+}
+
+#logo img {
+    height: 30px;
+}
+
+.button-rosa {
+    background-color: rgb(255, 16, 136);
+    border-radius: 30px;
+    color: white;
+    padding: 10px 15px;
+}
+
+.fa-chevron-down {
+    font-size: 10px;
+}
