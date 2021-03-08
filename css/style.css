@@ -57,8 +57,8 @@ header section > ul > li:not(#logo) {
     box-shadow: 0px 3px 6px 0px #dedcdc;
     position: absolute;
     top: 30px;
-    left: -70%;
-    right: -70%;
+    left: -50px;
+    right: -50px;
     padding: 15px 25px;
     display: none;
 }
@@ -75,4 +75,17 @@ header section > ul > li:not(#logo) {
 
 .dis_block {
     display: block;
+}
+
+.nuovo {
+    position: relative;
+}
+
+.nuovo p {
+    position: absolute;
+    right: 4px;
+    bottom: 100%;
+    color:  rgb(255, 16, 136);
+    font-size: 12px;
+    font-weight: 700;
 }
